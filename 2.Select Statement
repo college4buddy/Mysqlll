@@ -30,3 +30,21 @@ FROM company_and_rec.employee_demographics;
 #D=/(DIVISION)
 #A=+(ADDITION)
 #S=-(SUBTRACTION)
+
+
+#operation are perfrom in this 
+SELECT first_name,
+age,
+age+10,
+(age+5)*10-25
+FROM company_and_rec.employee_demographics;
+
+
+
+
+#We also use DISTINCT keywords It is use to write only different value
+
+SELECT distinct gender
+FROM company_and_rec.employee_demographics;
+
+
