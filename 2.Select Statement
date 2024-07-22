@@ -1,0 +1,32 @@
+-- SELECT STATEMENT 
+
+-- the SELECT statement is used to work with columns and specify whhat columns you want to work see in your output. There are a few other things as well that 
+-- we will discuss through this video
+-- * means Everything
+SELECT * 
+FROM company_and_rec.employee_demographics;
+
+
+# lets select specific columns 
+SELECT first_name
+FROM employee_demographics;
+
+# we only get first_name in the output
+
+
+#Now lets add more columns
+SELECT first_name, last_name ,gender 
+FROM company_and_rec.employee_demographics;
+
+# we can also make other formatting like left and right 
+SELECT  last_name, first_name
+FROM company_and_rec.employee_demographics;
+
+#we can do addition in sql
+#PEMDAS   
+#P=()(BRACKET)
+#E=**(EXPONENTIAL ALSO MEAN SQUARE)
+#m=*(MULTIPLICATION)
+#D=/(DIVISION)
+#A=+(ADDITION)
+#S=-(SUBTRACTION)
