@@ -1,0 +1,57 @@
+--Where statement use 
+
+SELECT *
+FROM employee_salary; 
+#It will print all the rows and columns in employee_salary
+
+#first use of where clause
+#where is use in this is check the condition in the  database and fullfill it. 
+#In this it check the name Rushi in the employee_salry  if it present it display the information about that person
+
+SELECT *
+FROM employee_salary
+where first_name = 'Rushi'
+;
+
+#We are using > opertor in this section 
+#It check whose salary is greater than 50000
+
+select * 
+from employee_salary
+where salary >50000
+;
+
+#We are using >= Operator in this section
+# It check whose salary is grater than but equal to that number .
+select * 
+from employee_salary
+where salary >=50000
+;
+
+#we are use >= optterator in this section
+# it check the value is less than 50000 and equal to 50000 . it print  the output when it satisy the condition.
+select * 
+from employee_salary
+where salary <=50000
+;
+
+# we are going to use Logical operator are AND OR NOT
+# In this operation there are condition first condition is date of birth is less than  2005 and second condition is Gender = Male
+SELECT * 
+FROM employee_demographics
+WHERE birth_date < '2005-01-01'
+  OR  gender = 'Male';
+
+ # use of like Statement in Sql
+ # % is everything it can be use begginning and end of the character if you want to find remaning one  
+ # _ it is symbol is used to print the exact value in the ex Dog have three character if you write D__ it will print remaing character in the output
+ 
+ 
+ SELECT * 
+FROM employee_demographics
+where first_name LIKE '%ja';
+
+#use of _ in this statement 
+SELECT * 
+FROM employee_demographics
+where first_name LIKE 'R__';
