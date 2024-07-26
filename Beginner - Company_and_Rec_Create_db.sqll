@@ -55,10 +55,10 @@ VALUES
 (5, 'Don', 'key', 'Office Manager', 50000, 1),
 (6, 'Ketan', 'Dongre', 'Office Manager', 60000, 1),
 (7, 'Abhi', 'Kamble', 'Nurse', 55000, 4),
-(8, 'Vaishnavi', 'Devi', 'City Manager', 90000, 3),
-(9, 'Krishna', 'Rathod', 'State Auditor', 70000, 6),
-(10, 'Gayatri', 'Pinjre', 'Shoe Shiner and Musician', 20000, NULL),
-(11, 'Harshu', 'Ingle', 'City Planner', 57000, 3);
+(9, 'Vaishnavi', 'Devi', 'City Manager', 90000, 3),
+(10, 'Krishna', 'Rathod', 'State Auditor', 70000, 6),
+(11, 'Gayatri', 'Pinjre', 'Shoe Shiner and Musician', 20000, NULL),
+(12, 'Harshu', 'Ingle', 'City Planner', 57000, 3);
 
 -- Insert data into Company_departments
 INSERT INTO Company_departments (department_name)
